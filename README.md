@@ -133,15 +133,6 @@ Full environment setup (Docker, PostgreSQL, env vars): [`docs/setup/SETUP.md`](d
 | [`docs/project/ETL_WORKFLOW.md`](docs/project/ETL_WORKFLOW.md) | Complete ETL lifecycle, functional & non-functional requirements |
 | [`docs/project/ROADMAP.md`](docs/project/ROADMAP.md) | Milestones, curriculum progress, workshop schedule |
 | [`docs/setup/SETUP.md`](docs/setup/SETUP.md) | Development environment setup |
-| [`docs/community/CONTRIBUTING.md`](docs/community/CONTRIBUTING.md) | Contribution guidelines |
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from all **Everything Data** members. Every change follows: fork → branch → implement → commit → push → pull request → review → merge.
-
-See [`docs/community/CONTRIBUTING.md`](docs/community/CONTRIBUTING.md) for details.
 
 ---
 
