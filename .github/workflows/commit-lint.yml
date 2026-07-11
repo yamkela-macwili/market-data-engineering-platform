@@ -1,0 +1,34 @@
+name: Commit Message Validation
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  commit-lint:
+    name: Commit Message Convention
+    runs-on: ubuntu-latest
+
+    # Only run for pull requests
+    if: github.event_name == 'pull_request'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate commit messages
+        uses: gsactions/commit-message-checker@v2
+        with:
+          pattern: '^(feat|fix|docs|style|refactor|perf|test|chore|ci|build|revert)(\(.+\))?: .{1,100}$'
+          flags: "gm"
+          error: 'Commit messages must follow Conventional Commits: "<type>: <message>" (e.g. "feat: add extraction module"). Allowed types: feat, fix, docs, style, refactor, perf, test, chore, ci, build, revert.'
+          excludeDescription: "true"
+          excludeTitle: "true"
+          checkAllCommitMessages: "true"
+          accessToken: ${{ secrets.GITHUB_TOKEN }}
