@@ -37,8 +37,8 @@
 
 | Day | Time | Focus |
 | --- | --- | --- |
-| Tuesday | 13:00 – 14:00 | Engineering Concepts + Live Implementation |
-| Wednesday | 13:00 – 14:00 | Practical Lab + Code Reviews |
+| Tuesday | 13:00 – 15:00 | Engineering Concepts + Live Implementation |
+| Wednesday | 13:00 – 15:00 | Practical Lab + Code Reviews |
 
 ---
 
