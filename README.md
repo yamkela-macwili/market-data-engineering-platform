@@ -41,24 +41,6 @@ Full rationale: [`docs/project/PROJECT_OVERVIEW.md`](docs/project/PROJECT_OVERVI
 
 ---
 
-## 📊 Project Status
-
-| Milestone | Status |
-| --- | --- |
-| 1 Project Foundation | ⬜ Not started |
-| 2 Extraction Layer | ⬜ Not started |
-| 3 Transformation Layer | ⬜ Not started |
-| 4 Loading Layer | ⬜ Not started |
-| 5 Containerization | ⬜ Not started |
-| 6 Distributed Processing | ⬜ Not started |
-| 7 Stream Processing | ⬜ Not started |
-| 8 Workflow Orchestration | ⬜ Not started |
-| 9 Data Warehousing | ⬜ Not started |
-
-Full roadmap and workshop schedule: [`docs/project/ROADMAP.md`](docs/project/ROADMAP.md)
-
----
-
 ## 🏗️ Architecture (at a glance)
 
 ```mermaid
